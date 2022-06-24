@@ -65,27 +65,9 @@ body {
         transform: scale(1.1);
     }
 
-    @media only screen and (min-width:768px) and (max-width:1239px) {
-        .Products{
-        display: flex;
-        align-content: flex-start;
-        margin-left: 40%;
-        color: brown;
+    @media only screen and (min-width: 768px) and (max-width: 1239px) {
+        display: none;
     }
-    }
-
-    @media only screen and (min-width:768px) {
-        .Products{
-        display: flex;
-        align-content: flex-start;
-        margin-left: 40%;
-        color: brown;
-    }
-    }
-
-    @media only screen and (min-width:320px) {}
-
-    @media only screen and (min-width:1024px) {}
 }
 
 
@@ -110,9 +92,6 @@ body {
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    @media only screen and (min-width:320px) {}
-
-    @media only screen and (min-width:1024px) {}
 }
 
 
@@ -187,10 +166,6 @@ body {
         ;
         align-items: center;
     }
-
-    @media only screen and (min-width:320px) {}
-
-    @media only screen and (min-width:1024px) {}
 }
 
 
@@ -220,16 +195,13 @@ body {
 
     @media only screen and (min-width:768px) {
         .muevecarro:hover {
-
             height: 100px;
             width: 100px;
         }
     }
-
-    @media only screen and (min-width:320px) {}
-
-    @media only screen and (min-width:1024px) {}
 }
+
+
 
 
 
@@ -326,12 +298,6 @@ body {
     padding: 10px;
     margin: 100px;
     margin-left: 50px;
-
-    @media only screen and (min-width:768px) {}
-
-    @media only screen and (min-width:320px) {}
-
-    @media only screen and (min-width:1024px) {}
 }
 
 .footer_nav a:hover {
@@ -349,17 +315,11 @@ body {
     width: 100%;
 
     @media only screen and (min-width:768px) {
-        .padreflex {
+        .padreflex{
             display: flex;
             flex-direction: row;
             justify-content: center;
             width: 160%;
-        }
-    }
-
-    @media only screen and (min-width:320px) {
-        .padreflex{
-        display: none;
         }
     }
 }

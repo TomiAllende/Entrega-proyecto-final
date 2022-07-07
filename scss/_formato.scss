@@ -286,9 +286,11 @@ body {
     align-items: right;
     justify-content: space-around;
 
-    @media only screen and (min-width:320px) {
-        visibility: visible;
+    @media only screen and (min-width:768px) {
+        #footer{
+        display: none;
     }
+}
 }
 
 .footer_nav a {
@@ -298,6 +300,11 @@ body {
     padding: 10px;
     margin: 100px;
     margin-left: 50px;
+    @media only screen and (min-width:768px){
+        .footer_nav a{
+            display: none;
+        }
+    }
 }
 
 .footer_nav a:hover {

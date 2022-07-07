@@ -312,9 +312,10 @@ body {
   display: flex;
   align-items: right;
   justify-content: space-around; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
     #footer #footer {
-      display: none; } }
+      display: none;
+      visibility: hidden; } }
 
 .footer_nav a {
   text-decoration: none;
@@ -323,9 +324,10 @@ body {
   padding: 10px;
   margin: 100px;
   margin-left: 50px; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
     .footer_nav a .footer_nav a {
-      display: none; } }
+      display: none;
+      visibility: hidden; } }
 
 .footer_nav a:hover {
   color: white;

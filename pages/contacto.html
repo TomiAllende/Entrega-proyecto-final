@@ -56,27 +56,33 @@
     </section>
     
 
-
-<div class="formulario">
-    <form action="#">
-      <fieldset>
-        <legend>Formulario de Contacto</legend>
-        <label for="">Nombre</label>
-        <input type="text" placeholder="Decime tu Nombre">
-        
-        <label for="">Apellido</label>
-        <input type="text" placeholder="Tu Apellido">
-        
-        <label for="">Correo Electronico</label>
-        <input type="text" placeholder="E-Mail">
-        
-        <textarea name="" id="" cols="20" rows="1"></textarea>
-        <input type="submit">
-        <input type="reset">
-      </fieldset>
+  
+  <div class="formulario">
+    <form action="contacto.html" method="GET">
+      <div class="form__title">CONTACTANOS</div>
+      <input type="text" name="Nombre" placeholder="NOMBRE" class="form__complete">
+      <input type="email" name="Mail" placeholder="MAIL" class="form__complete">
+      <div>¿Cómo nos conociste?</div>
+      <select name="medios">
+        <option value="Redes">Redes Sociales</option>
+        <option value="Google">Google</option>
+        <option value="Otros">Otros</option>
+      </select>
+      <div>¿Querés recibir nuestro Newslater?
+        <label for="si">Si</label>
+        <input type="radio" name="newslater" id="si" value="si">
+        <label for="no">No</label>
+        <input type="radio" name="newslater" id="no" value="no">
+      </div>
+      <div>Dejanos un mensaje:
+        <textarea name="mensaje">
+      
+        </textarea>	
+        <input type="submit" name="Enviar" value="ENVIAR">
+        <input type="reset" name="Limpiar" value="LIMPIAR">
+      </div>
     </form>
   </div>
-
   
 
     <div class="wapp">

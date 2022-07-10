@@ -12,7 +12,6 @@
     color: $color-class;
 
     @media only screen and (max-width:768px) {
-        .anuncio {
 
             grid-area: anuncio;
             display: flex;
@@ -25,7 +24,6 @@
             text-align: center;
         }
     }
-}
 
 
 .Logo {
@@ -178,9 +176,7 @@
     width: 70%;
 
     @media only screen and (min-width:768px) {
-        .carousel {
             grid-area: carousel;
-        }
     }
 }
 

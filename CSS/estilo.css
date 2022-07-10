@@ -9,7 +9,7 @@
   font-size: 2rem;
   color: red; }
   @media only screen and (max-width: 768px) {
-    .anuncio .anuncio {
+    .anuncio {
       grid-area: anuncio;
       display: flex;
       font-size: 10%;
@@ -118,7 +118,7 @@
 .carousel {
   width: 70%; }
   @media only screen and (min-width: 768px) {
-    .carousel .carousel {
+    .carousel {
       grid-area: carousel; } }
 
 .carousel-container {
@@ -313,7 +313,7 @@ body {
   align-items: right;
   justify-content: space-around; }
   @media only screen and (min-width: 320px) and (max-width: 768px) {
-    #footer #footer {
+    #footer {
       display: none;
       visibility: hidden; } }
 
@@ -325,7 +325,7 @@ body {
   margin: 100px;
   margin-left: 50px; }
   @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .footer_nav a .footer_nav a {
+    .footer_nav a {
       display: none;
       visibility: hidden; } }
 
@@ -341,7 +341,7 @@ body {
   justify-content: center;
   width: 100%; }
   @media only screen and (min-width: 768px) {
-    .padreflex .padreflex {
+    .padreflex {
       display: flex;
       flex-direction: row;
       justify-content: center;
